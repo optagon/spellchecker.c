@@ -1,0 +1,38 @@
+0.  longest word in our dictionary
+
+1.  it is returning a pointer to a struct containing the statistics of the program.
+
+
+2.  16
+
+3.  it is faster and more effective
+
+4.  first we open the file, then we iterate until we reach end of the file. Then C is launched with the first character from that file.
+    During the iteration we are assigning the next value of the next character in the file.
+    During that iteration we are checking if it is a valid character
+    Then word is inserted into the WORD array and POSITION index
+    Position is being incremented 
+    checking for the size of POSITION
+    If the ord is found as a misspeled word, it is assigned to the list of misspeled word
+    exiting program
+
+5. fgetc is more effective tool since is programmed for tat particular us 
+
+
+6.  Because they are pointers to a particular character
+
+7.  I use my structure node which is containing char word and pointer. Also I use hashtables which are conected to linked lists. 
+
+
+8.  WORDS MISSPELLED:     644
+    WORDS IN DICTIONARY:  143091
+    WORDS IN TEXT:        19190
+    TIME IN load:         0.04
+    TIME IN check:        2.18
+    TIME IN size:         0.00
+    TIME IN unload:       0.01
+    TIME IN TOTAL:        2.23
+    
+9.  I have implemented many changes which were subject to my research, unfortunately I cannot recall all 
+
+10. There are definitely functions which could be imroved, however I am proud on my solution.
